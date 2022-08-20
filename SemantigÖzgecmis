@@ -1,0 +1,53 @@
+            <article  class="Özgecmis" >
+                <!--<h2 class=""> Özgeçmiş Ve Akademik</h1>-->
+                    
+                <article class="isDeneyimi" > <!--style="background-image:url(resimler/educaation.jpg) ;" */ > -->
+                    
+                    <h2>İş Deneyimi</h2>
+                    <p>
+                        <p class="text-danger"> <b>2024-The Future</b> <br>
+                            Microsoft Dublin Office <br>
+                            Back-End Devoloper <br>
+                        </p> 
+                        <p class="text-danger"> <b>2022-2024</b> <br>
+                            Sakarya üniversitesi Toyota Office <br>
+                            Back-End Devoloper (Staj)<br>
+                        </p> 
+                        <p class="text-danger"> <b>2017-2020</b> <br>
+                            Mektep Eğitim Derneği <br>
+                            Ürün Yönetim Sorumlusu <br>
+                        </p> 
+                        <p class="text-danger"> <b>2015-2017</b> <br>
+                            Kartal Soğanlık Yeni Mahalle Öğrenci Yurdu Web devoloper <br>
+                        </p> 
+                        
+                    </p>
+                </article>
+                <article class="isDeneyimi">
+                    <h2>Akademik</h2>
+                    <p>
+                        <p class="text-danger"> <b>2020-günümüz</b> <br>
+                            Sakarya Üniversitesi <br>
+                            Bilgisayar Ve Bilişim Bilimleri Fakültesi <br>
+                            Bilgisayar mühendisliği <br>
+                        </p> 
+                        <p class="text-danger"> <b>2015-2019</b> <br>
+                            Fatin Rüştü Zorlu Anadolu Lisesi <br>
+                        </p> 
+                        
+                    </p>
+                </article>
+                <article class="isDeneyimi">
+                        <h2>Yetenekler</h2>
+                        <p >
+                            <ul class="text-danger">
+                                <li >C++</li>
+                                <li >C#</li>
+                                <li >Html</li>
+                                <li >Css</li>
+                                <li>JavaScript</li>
+                                <li>Php</li>
+                            </ul>
+                        </p>
+                 </article>
+            </article>
