@@ -1,0 +1,18 @@
+<?php
+if (isset($_POST['kaydet']))
+{
+if (isset($_POST['email'], $_POST['sifre'] ) && ($_POST['email']!='') && ($_POST['sifre']!=''))
+{
+echo "Giriş işleminiz yapıldı.";
+echo "<br>";
+echo "HOŞGELDİNİZ";
+echo "<b>".$_POST['mail'] . ' ' . $_POST['sifre']."</b>";
+}
+else
+{
+echo"Bilgilerinizi Kontrol Edip Tekrar Giriş Yapın.<br>
+Eksik Bilgi Girdiniz...";
+}
+}
+echo" <p> <a href='login.html'> &lt;GERİ DÖN&gt; </a></p> ";
+?>
