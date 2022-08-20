@@ -1,0 +1,20 @@
+          <center>
+          <div class="slider">
+            <div class="slider-content">
+              <div class="slider-item" >
+                <a href="https://www.youtube.com/watch?v=S4hVDt-vAQ4"><img src="resimler/boğaz400.jpg" alt=""></a>
+              </div>
+               <div class="slider-item">
+                <a href="https://tr.wikipedia.org/wiki/Fatih"><img src="resimler/fatih.jpg"  ></a>
+              </div>
+              <div class="slider-item">
+                <a href="https://tr.wikipedia.org/wiki/Balat,_Fatih"><img src="resimler/balat.jpg"  ></a>
+              </div>
+             
+              <div class="slider-item">
+                <a href="https://kizkulesi.com/"><img src="resimler/kzıKulesii.jpg"  ></a>
+              </div>
+            </div>
+  
+          </div>
+        </center>
