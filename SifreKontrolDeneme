@@ -1,0 +1,23 @@
+        <script>
+            function validateForm(){
+                var valueInput,result,messasage="";
+                result = document.getElementById('result');
+                
+                valueInput = document.getElementById('sifre').value;
+                if(valueInput==""){
+                    result.style.display="block";
+                    message="Şifre boş bırakılamaz";
+                    
+                }
+                else if(isNaN(valueInput))
+                {
+                    result.style.display="block";
+                    message="Şifre sayı olmalıdır.";
+                }
+                else{
+                    result.style.display="block";
+                    message="şifre doğru";
+                }
+                result.innerHTML=message;
+            }
+        </script>
