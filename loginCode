@@ -1,0 +1,79 @@
+<form action="giris.php" class="text-warning" id="formLogin" method="post" novalidate target="_blank">
+
+
+            <label for="email">Mail: </label>
+            <input type="email" id="email" name="email" required
+            placeholder="Email adresiniz giriniz" onkeydown="validation()" /> <br>
+            <span id="textLogin"></span> <br>
+
+            <label for="sifre">Şifre: </label>
+            <input type="password" id="sifre" name="sifre" value="" > <br><br>
+
+
+            <div> 
+                
+                <button type="button" onclick="validateForm()" class="btn btn-success">Şifre kontrol</button>
+                <p id="result" class="alert alert-danger mt-3" style="display:none;"></p> <br> <br>
+            </div>
+            
+            <input type="submit" name="kaydet" value="Kaydet"  > <br>
+            
+            </form>
+        </center> 
+
+        <script type="text/javascript">
+            function validation()
+            {
+                var form = document.getElementById("formLogin");
+                var email = document.getElementById("email").value;
+                var text = document.getElementById("textLogin");
+                var pattern = /^[^ ]+@[^ ]+\.[a-z]{2,3}$/;
+
+                if(email.match(pattern))
+                {
+                    
+                    form.classList.add("Geçerli");
+                    form.classList.remove("Geçersiz");
+                    text.innerHTML="Email adresiniz geçerli";
+                }
+                else
+                {
+                    form.classList.remove("Geçerli");
+                    form.classList.add("Geçersiz");
+                    text.innerHTML="Lütfen geçerli bir email adresi giriniz";
+
+                }
+
+                if(email == "")
+                {
+                    form.classList.remove("Geçerli");
+                    form.classList.remove("Geçersiz");
+                    text.innerHTML="";
+                }
+
+            }
+        </script>
+
+        <script>
+            function validateForm(){
+                var valueInput,result,message="";
+                result = document.getElementById('result');
+                result.style.display="block";
+                valueInput = document.getElementById('sifre').value;
+                if(valueInput==""){
+                    
+                    message="Şifre boş bırakılamaz";
+                    
+                }
+                else if(isNaN(valueInput))
+                {
+                    
+                    message="Şifre sayı olmalıdır.";
+                }
+                else{
+                   
+                    message="şifre uygun";
+                }
+                result.innerHTML=message;
+            }
+        </script>
